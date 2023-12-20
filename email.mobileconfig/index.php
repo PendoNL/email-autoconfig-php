@@ -20,9 +20,9 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 			<key>IncomingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>IncomingMailServerHostName</key>
-			<string>imap.example.org</string>
+			<string>mail.pendo.nl</string>
 			<key>IncomingMailServerPortNumber</key>
-			<integer>993</integer>
+			<integer>143</integer>
 			<key>IncomingMailServerUseSSL</key>
 			<true/>
 			<key>IncomingMailServerUsername</key>
@@ -30,7 +30,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 			<key>OutgoingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>OutgoingMailServerHostName</key>
-			<string>smtp.example.org</string>
+			<string>mail.pendo.nl</string>
 			<key>OutgoingMailServerPortNumber</key>
 			<integer>587</integer>
 			<key>OutgoingMailServerUseSSL</key>
