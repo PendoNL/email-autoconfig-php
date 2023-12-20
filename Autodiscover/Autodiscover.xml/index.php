@@ -14,8 +14,8 @@ header('Content-Type: application/xml');
       <Action>settings</Action>
       <Protocol>
         <Type>IMAP</Type>
-        <Server>imap.example.org</Server>
-        <Port>993</Port>
+        <Server>mail.pendo.nl</Server>
+        <Port>143</Port>
         <DomainRequired>off</DomainRequired>
         <SPA>off</SPA>
         <SSL>on</SSL>
@@ -24,7 +24,7 @@ header('Content-Type: application/xml');
       </Protocol>
       <Protocol>
         <Type>SMTP</Type>
-        <Server>smtp.example.org</Server>
+        <Server>mail.pendo.nl</Server>
         <Port>587</Port>
         <DomainRequired>off</DomainRequired>
         <SPA>off</SPA>
